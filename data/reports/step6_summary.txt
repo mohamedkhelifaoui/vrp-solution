@@ -1,0 +1,85 @@
+=== Step 6 Tuning Summary ===
+Combined runs table: C:\Users\dell\Desktop\pfe ta3i\pfe\data\reports\benchmarks_all_runs.csv
+
+-- Success rate by tag (%) --
+tag
+TL10_MGLS_V0        100.0
+TL10_MGLS_V10000    100.0
+TL10_MTABU_V0       100.0
+TL10_MTABU_V10000   100.0
+TL30_MGLS_V0        100.0
+TL30_MGLS_V10000    100.0
+TL30_MTABU_V0       100.0
+TL30_MTABU_V10000   100.0
+TL60_MGLS_V0        100.0
+TL60_MGLS_V10000    100.0
+TL60_MTABU_V0       100.0
+TL60_MTABU_V10000   100.0
+
+-- Success rate by family & tag (%) --
+family               tag  success_rate_%
+     C      TL10_MGLS_V0           100.0
+     C  TL10_MGLS_V10000           100.0
+     C     TL10_MTABU_V0           100.0
+     C TL10_MTABU_V10000           100.0
+     C      TL30_MGLS_V0           100.0
+     C  TL30_MGLS_V10000           100.0
+     C     TL30_MTABU_V0           100.0
+     C TL30_MTABU_V10000           100.0
+     C      TL60_MGLS_V0           100.0
+     C  TL60_MGLS_V10000           100.0
+     C     TL60_MTABU_V0           100.0
+     C TL60_MTABU_V10000           100.0
+     R      TL10_MGLS_V0           100.0
+     R  TL10_MGLS_V10000           100.0
+     R     TL10_MTABU_V0           100.0
+     R TL10_MTABU_V10000           100.0
+     R      TL30_MGLS_V0           100.0
+     R  TL30_MGLS_V10000           100.0
+     R     TL30_MTABU_V0           100.0
+     R TL30_MTABU_V10000           100.0
+     R      TL60_MGLS_V0           100.0
+     R  TL60_MGLS_V10000           100.0
+     R     TL60_MTABU_V0           100.0
+     R TL60_MTABU_V10000           100.0
+    RC      TL10_MGLS_V0           100.0
+    RC  TL10_MGLS_V10000           100.0
+    RC     TL10_MTABU_V0           100.0
+    RC TL10_MTABU_V10000           100.0
+    RC      TL30_MGLS_V0           100.0
+    RC  TL30_MGLS_V10000           100.0
+    RC     TL30_MTABU_V0           100.0
+    RC TL30_MTABU_V10000           100.0
+    RC      TL60_MGLS_V0           100.0
+    RC  TL60_MGLS_V10000           100.0
+    RC     TL60_MTABU_V0           100.0
+    RC TL60_MTABU_V10000           100.0
+
+-- Means by tag (feasible only) --
+                   mean_dist  mean_veh  count
+tag                                          
+TL60_MTABU_V0       1022.100    10.080     50
+TL60_MGLS_V0        1022.280    10.080     50
+TL60_MGLS_V10000    1030.380     9.780     50
+TL60_MTABU_V10000   1030.980     9.780     50
+TL30_MTABU_V10000   1035.920     9.800     50
+TL30_MGLS_V10000    1036.480     9.800     50
+TL30_MTABU_V0       1036.980    10.220     50
+TL30_MGLS_V0        1036.980    10.200     50
+TL10_MGLS_V10000    1051.080     9.840     50
+TL10_MTABU_V0       1052.900    10.160     50
+TL10_MTABU_V10000   1053.920     9.860     50
+TL10_MGLS_V0        1058.460    10.140     50
+
+-- Top 10 best improvements (best-of-sweep vs baseline) --
+instance family  vehicles_base  vehicles_ort  dist_base  dist_ort  pct_improve           tag  time_limit meta  vehicle_cost
+   RC206     RC              9             9   1893.329  1174.000       37.993  TL60_MGLS_V0          60  GLS             0
+    R206      R              8             8   1494.905   961.000       35.715  TL30_MGLS_V0          30  GLS             0
+    R203      R              8             9   1452.873   935.000       35.645  TL60_MGLS_V0          60  GLS             0
+    C108      C             11            10   1269.003   829.000       34.673  TL10_MGLS_V0          10  GLS             0
+    C103      C             11            10   1262.756   828.000       34.429 TL30_MTABU_V0          30 TABU             0
+    R103      R             17            15   1825.544  1208.000       33.828  TL60_MGLS_V0          60  GLS             0
+    R202      R              8             8   1588.118  1053.000       33.695  TL60_MGLS_V0          60  GLS             0
+    R110      R             15            12   1671.843  1115.000       33.307 TL60_MTABU_V0          60 TABU             0
+    R107      R             14            11   1598.799  1072.000       32.950  TL60_MGLS_V0          60  GLS             0
+    R209      R              8             8   1439.954   966.000       32.915  TL60_MGLS_V0          60  GLS             0

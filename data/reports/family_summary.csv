@@ -1,0 +1,4 @@
+family,n_instances,vehicles_mean,vehicles_std,vehicles_min,vehicles_max,distance_mean,distance_std,distance_min,distance_max
+C,17,10.118,0.332,10,11,1161.682,151.362,878.362,1347.518
+R,23,11.652,4.063,8,21,1504.629,256.333,1091.124,2127.091
+RC,16,12.125,3.324,9,18,1775.221,262.738,1354.573,2267.178

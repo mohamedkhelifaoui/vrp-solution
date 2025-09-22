@@ -1,0 +1,4 @@
+raw_dir: data/raw
+processed_dir: data/processed
+manifest: data/manifest.csv
+qa_report: data/qa_report.json

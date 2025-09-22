@@ -1,0 +1,11 @@
+{
+  "instance": "R208",
+  "buffer_mult": 1.2,
+  "buffer_add": 0.0,
+  "vehicle_cost": 10000,
+  "meta": "GLS",
+  "time_limit": 30,
+  "capacity": 200,
+  "horizon": 1000,
+  "feasible": false
+}

@@ -1,0 +1,59 @@
+C101: vehicles=10  dist=829.000  (objective=829)  feasible=True
+C102: vehicles=10  dist=829.000  (objective=829)  feasible=True
+C103: vehicles=10  dist=833.000  (objective=833)  feasible=True
+C104: vehicles=10  dist=852.000  (objective=852)  feasible=True
+C105: vehicles=10  dist=829.000  (objective=829)  feasible=True
+C106: vehicles=10  dist=829.000  (objective=829)  feasible=True
+C107: vehicles=10  dist=829.000  (objective=829)  feasible=True
+C108: vehicles=10  dist=829.000  (objective=829)  feasible=True
+C109: vehicles=10  dist=829.000  (objective=829)  feasible=True
+C201: vehicles=10  dist=1013.000  (objective=1013)  feasible=True
+C202: vehicles=10  dist=971.000  (objective=971)  feasible=True
+C203: vehicles=10  dist=958.000  (objective=958)  feasible=True
+C204: vehicles=10  dist=1076.000  (objective=1076)  feasible=True
+C205: vehicles=10  dist=987.000  (objective=987)  feasible=True
+C206: vehicles=10  dist=961.000  (objective=961)  feasible=True
+C207: vehicles=10  dist=966.000  (objective=966)  feasible=True
+C208: vehicles=10  dist=969.000  (objective=969)  feasible=True
+R101: NO SOLUTION
+R102: NO SOLUTION
+R103: vehicles=15  dist=1241.000  (objective=1241)  feasible=True
+R104: vehicles=12  dist=1018.000  (objective=1018)  feasible=True
+R105: NO SOLUTION
+R106: vehicles=14  dist=1256.000  (objective=1256)  feasible=True
+R107: vehicles=11  dist=1098.000  (objective=1098)  feasible=True
+R108: vehicles=10  dist=982.000  (objective=982)  feasible=True
+R109: vehicles=13  dist=1217.000  (objective=1217)  feasible=True
+R110: vehicles=14  dist=1171.000  (objective=1171)  feasible=True
+R111: vehicles=12  dist=1100.000  (objective=1100)  feasible=True
+R112: vehicles=11  dist=1023.000  (objective=1023)  feasible=True
+R201: vehicles=8  dist=1262.000  (objective=1262)  feasible=True
+R202: vehicles=9  dist=1109.000  (objective=1109)  feasible=True
+R203: vehicles=8  dist=967.000  (objective=967)  feasible=True
+R204: vehicles=8  dist=864.000  (objective=864)  feasible=True
+R205: vehicles=8  dist=1111.000  (objective=1111)  feasible=True
+R206: vehicles=9  dist=1053.000  (objective=1053)  feasible=True
+R207: vehicles=8  dist=996.000  (objective=996)  feasible=True
+R208: vehicles=8  dist=904.000  (objective=904)  feasible=True
+R209: vehicles=8  dist=1048.000  (objective=1048)  feasible=True
+R210: vehicles=8  dist=967.000  (objective=967)  feasible=True
+R211: vehicles=8  dist=870.000  (objective=870)  feasible=True
+RC101: NO SOLUTION
+RC102: NO SOLUTION
+RC103: vehicles=13  dist=1364.000  (objective=1364)  feasible=True
+RC104: vehicles=11  dist=1258.000  (objective=1258)  feasible=True
+RC105: NO SOLUTION
+RC106: vehicles=15  dist=1477.000  (objective=1477)  feasible=True
+RC107: vehicles=12  dist=1268.000  (objective=1268)  feasible=True
+RC108: vehicles=11  dist=1178.000  (objective=1178)  feasible=True
+RC201: vehicles=9  dist=1428.000  (objective=1428)  feasible=True
+RC202: vehicles=10  dist=1276.000  (objective=1276)  feasible=True
+RC203: vehicles=9  dist=1152.000  (objective=1152)  feasible=True
+RC204: vehicles=9  dist=1055.000  (objective=1055)  feasible=True
+RC205: vehicles=9  dist=1269.000  (objective=1269)  feasible=True
+RC206: vehicles=9  dist=1257.000  (objective=1257)  feasible=True
+RC207: vehicles=9  dist=1212.000  (objective=1212)  feasible=True
+RC208: vehicles=9  dist=1083.000  (objective=1083)  feasible=True
+
+Done. Solutions in: data\solutions_ortools
+Summary: data\solutions_ortools\summary.csv

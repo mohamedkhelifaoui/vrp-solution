@@ -1,0 +1,4 @@
+Instances: 56
+Feasible: 56/56
+Families: C, R, RC
+Groups: C1, C2, R1, R2, RC1, RC2

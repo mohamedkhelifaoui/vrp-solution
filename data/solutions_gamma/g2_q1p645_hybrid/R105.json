@@ -1,0 +1,9 @@
+{
+  "instance": "R105",
+  "vehicles": 0,
+  "total_distance": 0.0,
+  "capacity": 200,
+  "horizon": 214.96646388902465,
+  "feasible": false,
+  "routes": []
+}

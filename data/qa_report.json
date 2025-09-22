@@ -1,0 +1,788 @@
+{
+  "files": [
+    {
+      "file": "C101.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 1054.0,
+        "b_min": 67.0,
+        "b_max": 1236.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C102.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 1054.0,
+        "b_min": 73.0,
+        "b_max": 1236.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C103.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 1001.0,
+        "b_min": 77.0,
+        "b_max": 1236.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C104.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 100,
+        "n_nan_rows_dropped": 1,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 916.0,
+        "b_min": 77.0,
+        "b_max": 1236.0,
+        "total_demand": 1800.0
+      }
+    },
+    {
+      "file": "C105.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 982.0,
+        "b_min": 120.0,
+        "b_max": 1236.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C106.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 951.0,
+        "b_min": 60.0,
+        "b_max": 1236.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C107.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 947.0,
+        "b_min": 190.0,
+        "b_max": 1236.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C108.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 867.0,
+        "b_min": 223.0,
+        "b_max": 1236.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C109.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 770.0,
+        "b_min": 370.0,
+        "b_max": 1236.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C201.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 3119.0,
+        "b_min": 168.0,
+        "b_max": 3390.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C202.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 3119.0,
+        "b_min": 168.0,
+        "b_max": 3390.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C203.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 3097.0,
+        "b_min": 168.0,
+        "b_max": 3390.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C204.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 3097.0,
+        "b_min": 172.0,
+        "b_max": 3390.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C205.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 2959.0,
+        "b_min": 328.0,
+        "b_max": 3390.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C206.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 2976.0,
+        "b_min": 360.0,
+        "b_max": 3390.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C207.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 2976.0,
+        "b_min": 208.0,
+        "b_max": 3390.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "C208.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 2648.0,
+        "b_min": 648.0,
+        "b_max": 3390.0,
+        "total_demand": 1810.0
+      }
+    },
+    {
+      "file": "R101.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 200.0,
+        "b_min": 28.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R102.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 200.0,
+        "b_min": 28.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R103.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 200.0,
+        "b_min": 28.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R104.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 200.0,
+        "b_min": 28.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R105.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 180.0,
+        "b_min": 47.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R106.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 180.0,
+        "b_min": 48.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R107.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 180.0,
+        "b_min": 48.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R108.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 180.0,
+        "b_min": 48.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R109.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 147.0,
+        "b_min": 75.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R110.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 130.0,
+        "b_min": 79.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R111.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 178.0,
+        "b_min": 53.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R112.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 92.0,
+        "b_min": 128.0,
+        "b_max": 230.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R201.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 849.0,
+        "b_min": 172.0,
+        "b_max": 1000.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R202.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 849.0,
+        "b_min": 172.0,
+        "b_max": 1000.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R203.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 849.0,
+        "b_min": 172.0,
+        "b_max": 1000.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R204.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 849.0,
+        "b_min": 181.0,
+        "b_max": 1000.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R205.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 740.0,
+        "b_min": 257.0,
+        "b_max": 1000.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R206.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 740.0,
+        "b_min": 258.0,
+        "b_max": 1000.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R207.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 740.0,
+        "b_min": 258.0,
+        "b_max": 1000.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R208.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 740.0,
+        "b_min": 258.0,
+        "b_max": 1000.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R209.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 694.0,
+        "b_min": 301.0,
+        "b_max": 1000.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R210.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 854.0,
+        "b_min": 159.0,
+        "b_max": 1000.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "R211.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 482.0,
+        "b_min": 501.0,
+        "b_max": 1000.0,
+        "total_demand": 1458.0
+      }
+    },
+    {
+      "file": "RC101.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 192.0,
+        "b_min": 41.0,
+        "b_max": 240.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC102.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 192.0,
+        "b_min": 41.0,
+        "b_max": 240.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC103.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 192.0,
+        "b_min": 41.0,
+        "b_max": 240.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC104.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 180.0,
+        "b_min": 44.0,
+        "b_max": 240.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC105.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 200.0,
+        "b_min": 25.0,
+        "b_max": 240.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC106.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 162.0,
+        "b_min": 71.0,
+        "b_max": 240.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC107.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 151.0,
+        "b_min": 84.0,
+        "b_max": 240.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC108.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 107.0,
+        "b_min": 118.0,
+        "b_max": 240.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC201.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 822.0,
+        "b_min": 131.0,
+        "b_max": 960.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC202.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 822.0,
+        "b_min": 131.0,
+        "b_max": 960.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC203.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 822.0,
+        "b_min": 131.0,
+        "b_max": 960.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC204.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 810.0,
+        "b_min": 134.0,
+        "b_max": 960.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC205.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 870.0,
+        "b_min": 74.0,
+        "b_max": 960.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC206.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 702.0,
+        "b_min": 251.0,
+        "b_max": 960.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC207.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 651.0,
+        "b_min": 299.0,
+        "b_max": 960.0,
+        "total_demand": 1724.0
+      }
+    },
+    {
+      "file": "RC208.csv",
+      "issues": [],
+      "summary": {
+        "n_rows": 101,
+        "n_nan_rows_dropped": 0,
+        "n_depot_candidates": 1,
+        "a_min": 0.0,
+        "a_max": 448.0,
+        "b_min": 498.0,
+        "b_max": 960.0,
+        "total_demand": 1724.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+=== Step 7: Final deterministic configuration vs. Baseline ===
+Final folder: C:\Users\dell\Desktop\pfe ta3i\pfe\data\final\current
+Table: C:\Users\dell\Desktop\pfe ta3i\pfe\data\reports\final_vs_baseline.csv
+
+-- Overall stats --
+       pct_improve  delta_dist  delta_veh
+count       50.000      50.000     50.000
+mean        26.255    -381.610     -0.780
+std          6.431     137.320      1.200
+min          5.620    -653.329     -4.000
+25%         22.849    -504.222     -1.000
+50%         26.781    -378.459      0.000
+75%         31.260    -282.284      0.000
+max         35.648     -49.362      0.000
+
+-- Per family mean improvements --
+        mean_pct_improve  mean_delta_dist  mean_delta_veh   n
+family                                                       
+C                 22.379         -269.682          -0.118  17
+R                 28.942         -424.024          -1.150  20
+RC                27.190         -462.723          -1.077  13
+
+-- Top 10 instances by % improvement --
+instance family  vehicles_base  vehicles_final  dist_base  dist_final  pct_improve
+    R206      R              8               8   1494.905     962.000       35.648
+    C108      C             11              10   1269.003     829.000       34.673
+   RC206     RC              9               9   1893.329    1240.000       34.507
+    R209      R              8               8   1439.954     948.000       34.165
+    R203      R              8               8   1452.873     957.000       34.131
+    R103      R             17              14   1825.544    1209.000       33.773
+    R202      R              8               8   1588.118    1073.000       32.436
+    R110      R             15              11   1671.843    1132.000       32.290
+    R211      R              8               8   1267.116     859.000       32.208
+    R111      R             14              11   1580.005    1073.000       32.089

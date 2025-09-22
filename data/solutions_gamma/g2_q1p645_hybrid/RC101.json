@@ -1,0 +1,9 @@
+{
+  "instance": "RC101",
+  "vehicles": 0,
+  "total_distance": 0.0,
+  "capacity": 200,
+  "horizon": 220.45285877679297,
+  "feasible": false,
+  "routes": []
+}
