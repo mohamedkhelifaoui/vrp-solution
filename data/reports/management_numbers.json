@@ -1,0 +1,58 @@
+{
+  "overall_ontime_by_method": [
+    {
+      "method": "Q120",
+      "ontime_mean": 99.605
+    },
+    {
+      "method": "SAA16-b0p3",
+      "ontime_mean": 98.1804310966811
+    },
+    {
+      "method": "DET",
+      "ontime_mean": 42.7116
+    }
+  ],
+  "champions_stats_by_method": [
+    {
+      "method": "SAA16-b0p3",
+      "n": 54
+    },
+    {
+      "method": "Q120",
+      "n": 2
+    }
+  ],
+  "final_overall_means": [
+    {
+      "method": "SAA16-b0p3",
+      "distance": 1164.925925925926,
+      "vehicles": 10.62962962962963,
+      "ontime_p50": 99.87037037037037,
+      "ontime_p95": 100.0,
+      "runtime_s": NaN,
+      "n_instances": 54
+    },
+    {
+      "method": "Q120",
+      "distance": 1218.0,
+      "vehicles": 12.5,
+      "ontime_p50": 100.0,
+      "ontime_p95": 100.0,
+      "runtime_s": NaN,
+      "n_instances": 2
+    }
+  ],
+  "median_pct_improve_by_family": {
+    "C": 25.14990334495963,
+    "R": 30.807375263409142,
+    "RC": 28.99664899537624
+  },
+  "final_per_instance_counts": {
+    "n_instances": 56,
+    "by_method": {
+      "SAA16-b0p3": 54,
+      "Q120": 2
+    }
+  }
+}
