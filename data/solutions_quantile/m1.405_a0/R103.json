@@ -1,0 +1,11 @@
+{
+  "instance": "R103",
+  "buffer_mult": 1.405,
+  "buffer_add": 0.0,
+  "vehicle_cost": 10000,
+  "meta": "GLS",
+  "time_limit": 30,
+  "capacity": 200,
+  "horizon": 230,
+  "feasible": false
+}
