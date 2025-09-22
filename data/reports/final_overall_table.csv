@@ -1,0 +1,3 @@
+method,mean_distance,mean_vehicles,mean_ontime_p50,mean_ontime_p95,mean_runtime_s,n_instances
+SAA16-b0p3,1164.9259259259259,10.62962962962963,99.87037037037037,100.0,,54
+Q120,1218.0,12.5,100.0,100.0,,2
