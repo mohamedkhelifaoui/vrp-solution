@@ -1,0 +1,26 @@
+{
+  "binary": {
+    "is_champion": {
+      "accuracy": NaN,
+      "f1": NaN,
+      "roc_auc": NaN,
+      "brier": NaN,
+      "note": "insufficient data"
+    }
+  },
+  "regression": {
+    "gap_to_best_pct": {
+      "MAE": NaN,
+      "RMSE": NaN,
+      "note": "insufficient data"
+    }
+  },
+  "recommendation": {
+    "note": "skipped OOF reco eval (insufficient groups/OOD labels)."
+  },
+  "notes": [
+    "Classifier 'meets_SLA' skipped: column missing.",
+    "Regressor 'distance' skipped: column missing.",
+    "Regressor 'runtime_s' skipped: column missing."
+  ]
+}

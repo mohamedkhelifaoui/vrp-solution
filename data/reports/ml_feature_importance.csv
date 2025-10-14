@@ -1,0 +1,9 @@
+feature,importance
+Window tightness (DUE-READY variance),0.32
+Customer dispersion (coord variance),0.28
+Horizon length (depot window),0.18
+Service time / horizon ratio,0.12
+Mean nearest-neighbor distance,0.1
+Cluster density (within radius),0.08
+Family indicator (C/R/RC),0.06
+Total demand load,0.04

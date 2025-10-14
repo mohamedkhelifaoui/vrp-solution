@@ -1,0 +1,7 @@
+family_horizon,sla_coverage_gain,distance_increase_pct,vehicles_diff
+C1,0.61,2.65,0.11
+C2,0.14,1.68,-0.22
+R1,0.43,0.82,-0.17
+R2,0.39,1.52,-0.45
+RC1,-0.4,0.43,-0.38
+RC2,0.94,1.24,-0.12

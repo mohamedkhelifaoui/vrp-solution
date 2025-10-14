@@ -1,0 +1,101 @@
+{
+  "feature_mode": "start",
+  "model_kind": "rf",
+  "target": "meets_SLA",
+  "group_col": "instance",
+  "feature_cols": [
+    "instance",
+    "family",
+    "method",
+    "method_family",
+    "tag",
+    "metaheuristic",
+    "sla_metric",
+    "status",
+    "version_tag",
+    "n_customers",
+    "time_limit_s",
+    "vehicle_cost",
+    "K_eval",
+    "seed_eval",
+    "cv_global_eval",
+    "cv_link_eval",
+    "sla_threshold",
+    "seed_build"
+  ],
+  "categoricals": [
+    "instance",
+    "family",
+    "method",
+    "method_family",
+    "tag",
+    "metaheuristic",
+    "sla_metric",
+    "status",
+    "version_tag"
+  ],
+  "numerics": [
+    "n_customers",
+    "time_limit_s",
+    "vehicle_cost",
+    "K_eval",
+    "seed_eval",
+    "cv_global_eval",
+    "cv_link_eval",
+    "sla_threshold",
+    "seed_build"
+  ],
+  "cv": [
+    {
+      "fold": 1,
+      "n_train": 405,
+      "n_valid": 99,
+      "accuracy": 0.7373737373737373,
+      "f1": 0.7903225806451613,
+      "roc_auc": 0.7711421098517872,
+      "avg_precision": 0.833788735078405
+    },
+    {
+      "fold": 2,
+      "n_train": 405,
+      "n_valid": 99,
+      "accuracy": 0.6161616161616161,
+      "f1": 0.5957446808510638,
+      "roc_auc": 0.6612111292962357,
+      "avg_precision": 0.6588734511655634
+    },
+    {
+      "fold": 3,
+      "n_train": 405,
+      "n_valid": 99,
+      "accuracy": 0.6565656565656566,
+      "f1": 0.575,
+      "roc_auc": 0.6963265306122447,
+      "avg_precision": 0.6831715112046238
+    },
+    {
+      "fold": 4,
+      "n_train": 396,
+      "n_valid": 108,
+      "accuracy": 0.7592592592592593,
+      "f1": 0.7903225806451613,
+      "roc_auc": 0.7649018232819074,
+      "avg_precision": 0.7952425063672298
+    },
+    {
+      "fold": 5,
+      "n_train": 405,
+      "n_valid": 99,
+      "accuracy": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "roc_auc": 0.684640522875817,
+      "avg_precision": 0.7272647237078651
+    }
+  ],
+  "cv_avg": {
+    "accuracy": 0.6872053872053872,
+    "avg_precision": 0.7396681855047375,
+    "f1": 0.6836113017616106,
+    "roc_auc": 0.7156444231835983
+  }
+}

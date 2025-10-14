@@ -1,0 +1,4 @@
+instance,method,distance,vehicles,ontime_mean,ontime_p05,ontime_p50,ontime_p95,tard_mean,n_customers,K
+RC103,SAA16-b0p3,1379.0,12,34.675,27.950000000000003,35.0,41.0,81.54588715848166,100,200
+RC103,Q120,,0,,,,,,0,200
+RC103,Gamma1,2223.757,16,48.975,44.0,49.0,55.0,54.498120155801516,100,200

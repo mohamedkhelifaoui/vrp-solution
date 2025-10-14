@@ -1,0 +1,10 @@
+instance,method,method_family,feasible,meets_SLA(target),is_champion(target),vehicles,distance,runtime_s,ontime_p50,ontime_p95,gap_to_det_pct,gap_to_best_pct,tag,metaheuristic
+R110,Q120,Q,True,True,True,17,1600.0,25.9,97.4,98.4,-1.71,0.0,TL30_MGLS_V10000,GLS
+R110,Q110,Q,True,True,False,17,1626.6,23.7,98.0,99.0,-0.07,1.66,TL30_MGLS_V10000,GLS
+R110,DET,DET,True,True,False,17,1627.8,10.5,98.4,99.6,0.0,1.74,TL30_MGLS_V10000,GLS
+R110,Gamma1-q1p645,Gamma,True,True,False,17,1633.5,249.5,97.9,98.5,0.35,2.09,TL30_MGLS_V10000,GLS
+R110,Gamma2-q1p645,Gamma,True,True,False,17,1641.5,462.7,96.8,98.4,0.84,2.59,TL30_MGLS_V10000,GLS
+R110,Q130,Q,True,True,False,17,1666.2,39.6,97.5,98.3,2.36,4.14,TL30_MGLS_V10000,GLS
+R110,SAA16-b0p3,SAA,True,True,False,17,1670.8,210.7,98.0,99.2,2.64,4.42,TL30_MGLS_V10000,GLS
+R110,SAA64-b0p7,SAA,True,True,False,17,1682.6,580.0,97.6,98.5,3.37,5.16,TL30_MGLS_V10000,GLS
+R110,SAA32-b0p5,SAA,True,True,False,17,1707.9,373.6,96.7,98.4,4.92,6.74,TL30_MGLS_V10000,GLS

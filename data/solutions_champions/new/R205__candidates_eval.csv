@@ -1,0 +1,4 @@
+instance,method,distance,vehicles,ontime_p50,ontime_p95,tard_mean
+R205,SAA16-b0p3,1111.0,8,32.0,33.0,283.7620629238467
+R205,Q120,,0,,,
+R205,Gamma1,1472.6,8,31.0,32.0,286.310901773285

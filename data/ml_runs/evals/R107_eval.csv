@@ -1,0 +1,4 @@
+instance,method,distance,vehicles,ontime_mean,ontime_p05,ontime_p50,ontime_p95,tard_mean,n_customers,K
+R107,SAA16-b0p3,1183.0,11,29.855,25.0,29.0,35.0,103.07289330281407,100,200
+R107,Q120,,0,,,,,,0,200
+R107,Gamma1,1668.271,14,45.24,39.0,45.0,51.0,55.62270113393943,100,200

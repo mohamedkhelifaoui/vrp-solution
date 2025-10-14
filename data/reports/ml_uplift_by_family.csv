@@ -1,0 +1,4 @@
+family,sla_coverage_gain,distance_increase_pct,vehicles_diff
+C,0.38,2.16,-0.06
+R,0.41,1.15,-0.3
+RC,0.27,0.84,-0.25

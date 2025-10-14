@@ -1,0 +1,6 @@
+metric,value
+Total Instances,56.0
+Top-1 Accuracy (%),89.3
+SLA Coverage (%),101.78571428571428
+Avg Distance Regret (%),1.8111944291925652
+Champions Selected,57.0
