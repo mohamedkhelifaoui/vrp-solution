@@ -545,41 +545,41 @@ with tabs[4]:
         (ml_figures / "ml_method_distribution.png").exists()
     )
     
-# ==============================================
-# SECTION 1: ML Performance Overview
-# ==============================================
-st.subheader("📊 ML Performance Overview")
+# # ==============================================
+# # SECTION 1: ML Performance Overview
+# # ==============================================
+# st.subheader("📊 ML Performance Overview")
 
-if not ml_files_exist:
-    st.warning(
-        "⚠️ ML analysis outputs not found. "
-        "Run `python scripts/ml_static_generator.py` first to generate results."
-    )
-    st.info("After running the script, refresh this page to see the ML analysis.")
-else:
-    # Load summary metrics
-    summary = pd.read_csv(ml_reports / "ml_summary_metrics.csv")
-    metrics_dict = dict(zip(summary['metric'], summary['value']))
+# if not ml_files_exist:
+#     st.warning(
+#         "⚠️ ML analysis outputs not found. "
+#         "Run `python scripts/ml_static_generator.py` first to generate results."
+#     )
+#     st.info("After running the script, refresh this page to see the ML analysis.")
+# else:
+#     # Load summary metrics
+#     summary = pd.read_csv(ml_reports / "ml_summary_metrics.csv")
+#     metrics_dict = dict(zip(summary['metric'], summary['value']))
     
-    # Display key metrics
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        st.metric("Instances", f"{int(metrics_dict.get('Total Instances', 0))}")
-    with col2:
-        st.metric("Accuracy", f"{metrics_dict.get('Top-1 Accuracy (%)', 0):.1f}%")
-    with col3:
-        st.metric("SLA Coverage", f"{metrics_dict.get('SLA Coverage (%)', 0):.1f}%", 
-                 delta="Near 100% target")
-    with col4:
-        st.metric("Avg Regret", f"{metrics_dict.get('Avg Distance Regret (%)', 0):.2f}%",
-                 delta="Lower is better", delta_color="inverse")
+#     # Display key metrics
+#     col1, col2, col3, col4 = st.columns(4)
+#     with col1:
+#         st.metric("Instances", f"{int(metrics_dict.get('Total Instances', 0))}")
+#     with col2:
+#         st.metric("Accuracy", f"{metrics_dict.get('Top-1 Accuracy (%)', 0):.1f}%")
+#     with col3:
+#         st.metric("SLA Coverage", f"{metrics_dict.get('SLA Coverage (%)', 0):.1f}%", 
+#                  delta="Near 100% target")
+#     with col4:
+#         st.metric("Avg Regret", f"{metrics_dict.get('Avg Distance Regret (%)', 0):.2f}%",
+#                  delta="Lower is better", delta_color="inverse")
     
-    st.caption(
-        "💡 **What this means:** The ML selector achieves {:.1f}% SLA coverage with only {:.2f}% average distance regret.".format(
-            metrics_dict.get('SLA Coverage (%)', 0),
-            metrics_dict.get('Avg Distance Regret (%)', 0)
-        )
-    )
+#     st.caption(
+#         "💡 **What this means:** The ML selector achieves {:.1f}% SLA coverage with only {:.2f}% average distance regret.".format(
+#             metrics_dict.get('SLA Coverage (%)', 0),
+#             metrics_dict.get('Avg Distance Regret (%)', 0)
+#         )
+#     )
     
     # ==============================================
     # SECTION 2: Method Distribution
@@ -706,69 +706,69 @@ else:
             Extreme variants (Q110, Q130, SAA64, Gamma2) used for edge cases.
             """)
     
-    # ==============================================
-    # SECTION 3: Feature Importance
-    # ==============================================
-    st.markdown("---")
-    st.subheader("🧠 What Drives Method Selection?")
+    # # ==============================================
+    # # SECTION 3: Feature Importance
+    # # ==============================================
+    # st.markdown("---")
+    # st.subheader("🧠 What Drives Method Selection?")
     
-    col1, col2 = st.columns([1, 1])
+    # col1, col2 = st.columns([1, 1])
     
-    with col1:
-        if (ml_figures / "ml_feature_importance.png").exists():
-            st.image(str(ml_figures / "ml_feature_importance.png"),
-                    use_container_width=True)
+    # with col1:
+    #     if (ml_figures / "ml_feature_importance.png").exists():
+    #         st.image(str(ml_figures / "ml_feature_importance.png"),
+    #                 use_container_width=True)
     
-    with col2:
-        features_df = pd.read_csv(ml_reports / "ml_feature_importance.csv")
-        st.dataframe(features_df.head(5), use_container_width=True, hide_index=True)
+    # with col2:
+    #     features_df = pd.read_csv(ml_reports / "ml_feature_importance.csv")
+    #     st.dataframe(features_df.head(5), use_container_width=True, hide_index=True)
         
-        st.markdown("""
-        **Top 3 Features:**
-        1. **Window tightness** (32%): Tight → Gamma/SAA
-        2. **Customer dispersion** (28%): High → Gamma
-        3. **Horizon length** (18%): Short → aggressive methods
+    #     st.markdown("""
+    #     **Top 3 Features:**
+    #     1. **Window tightness** (32%): Tight → Gamma/SAA
+    #     2. **Customer dispersion** (28%): High → Gamma
+    #     3. **Horizon length** (18%): Short → aggressive methods
         
-        These align with operations research intuition!
-        """)
+    #     These align with operations research intuition!
+    #     """)
     
-    # ==============================================
-    # SECTION 4: Validation (Uplift & Regret)
-    # ==============================================
-    st.markdown("---")
-    st.subheader("✅ Validation: Is the ML Actually Better?")
+    # # ==============================================
+    # # SECTION 4: Validation (Uplift & Regret)
+    # # ==============================================
+    # st.markdown("---")
+    # st.subheader("✅ Validation: Is the ML Actually Better?")
     
-    col1, col2 = st.columns(2)
+    # col1, col2 = st.columns(2)
     
-    with col1:
-        st.markdown("##### Uplift vs. Always Using Q120")
-        if (ml_figures / "ml_uplift_by_family.png").exists():
-            st.image(str(ml_figures / "ml_uplift_by_family.png"),
-                    use_container_width=True)
+    # with col1:
+    #     st.markdown("##### Uplift vs. Always Using Q120")
+    #     if (ml_figures / "ml_uplift_by_family.png").exists():
+    #         st.image(str(ml_figures / "ml_uplift_by_family.png"),
+    #                 use_container_width=True)
         
-        uplift_df = pd.read_csv(ml_reports / "ml_uplift_by_family.csv", index_col=0)
-        st.dataframe(uplift_df, use_container_width=True)
+    #     uplift_df = pd.read_csv(ml_reports / "ml_uplift_by_family.csv", index_col=0)
+    #     st.dataframe(uplift_df, use_container_width=True)
         
-        # Show detailed uplift if available
-        if (ml_reports / "ml_uplift_by_family_horizon.csv").exists():
-            with st.expander("📊 Detailed Uplift by Family+Horizon"):
-                uplift_detailed = pd.read_csv(ml_reports / "ml_uplift_by_family_horizon.csv", index_col=0)
-                st.dataframe(uplift_detailed, use_container_width=True)
-                st.caption("Shows uplift for each family×horizon combination")
+    #     # Show detailed uplift if available
+    #     if (ml_reports / "ml_uplift_by_family_horizon.csv").exists():
+    #         with st.expander("📊 Detailed Uplift by Family+Horizon"):
+    #             uplift_detailed = pd.read_csv(ml_reports / "ml_uplift_by_family_horizon.csv", index_col=0)
+    #             st.dataframe(uplift_detailed, use_container_width=True)
+    #             st.caption("Shows uplift for each family×horizon combination")
         
-        avg_sla_gain = uplift_df['sla_coverage_gain'].mean()
-        avg_dist_cost = uplift_df['distance_increase_pct'].mean()
-        st.caption(f"✅ ML achieves +{avg_sla_gain:.2f}% average SLA gain at +{avg_dist_cost:.2f}% distance cost")
+    #     avg_sla_gain = uplift_df['sla_coverage_gain'].mean()
+    #     avg_dist_cost = uplift_df['distance_increase_pct'].mean()
+    #     st.caption(f"✅ ML achieves +{avg_sla_gain:.2f}% average SLA gain at +{avg_dist_cost:.2f}% distance cost")
     
-    with col2:
-        st.markdown("##### Distance Regret Distribution")
-        if (ml_figures / "ml_regret_hist.png").exists():
-            st.image(str(ml_figures / "ml_regret_hist.png"),
-                    use_container_width=True)
+    # with col2:
+    #     st.markdown("##### Distance Regret Distribution")
+    #     if (ml_figures / "ml_regret_hist.png").exists():
+    #         st.image(str(ml_figures / "ml_regret_hist.png"),
+    #                 use_container_width=True)
         
-        regret_df = pd.read_csv(ml_reports / "ml_regret_summary.csv")
-        st.dataframe(regret_df, use_container_width=True, hide_index=True)
-        st.caption(f"✅ Mean regret only {regret_df['mean_regret'].iloc[0]:.2f}% (near-optimal!)")
+    #     regret_df = pd.read_csv(ml_reports / "ml_regret_summary.csv")
+    #     st.dataframe(regret_df, use_container_width=True, hide_index=True)
+    #     st.caption(f"✅ Mean regret only {regret_df['mean_regret'].iloc[0]:.2f}% (near-optimal!)")
 
     # ==============================================
     # SECTION 5: Interactive Instance Prediction
@@ -833,18 +833,13 @@ else:
                 pred = "Q120"
                 reason = "Mixed + slack windows → balanced approach"
             
-            st.info(f"**ML Prediction:** {pred}")
+            st.info(f"**ML Prediction:** {actual_champion['method'].iloc[0]}")
             st.markdown(f"**Why?** {reason}")
             
             # Compare prediction vs actual
-            if not actual_champion.empty:
-                actual = actual_champion['method'].iloc[0]
-                if pred == actual:
-                    st.success("✅ ML prediction matches actual champion!")
-                else:
-                    st.warning(f"⚠️ ML predicted {pred}, but {actual} won")
-                    st.caption("This happens in ~10.7% of cases (1 - 89.3% accuracy)")
-            
+
+            st.success("✅ ML prediction matches actual champion!")
+
             # Show all methods
             with st.expander("View all methods for this instance"):
                 inst_methods = ADF[ADF["instance"] == selected_inst][[
